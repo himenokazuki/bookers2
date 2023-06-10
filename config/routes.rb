@@ -4,7 +4,5 @@ Rails.application.routes.draw do
   root to: 'homes#top'
   resources :users
   resources :books
-  post 'books' => 'books#create'   #ここを追記します
   get  'homes/about'
- 
 end
